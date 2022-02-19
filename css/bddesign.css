@@ -1,0 +1,50 @@
+*{
+	cursor: pointer;
+}
+
+
+.bddesign{
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	border: 2px solid black;
+
+	text-align: center;
+
+	/*border-radius: 50px;*/
+
+				/*top-left top-right bottom-right bottom-left*/
+	/*border-radius: 10px 20px 30px 40px;*/
+
+	/*border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;*/
+
+				/*top-left&bottom-right top-right&bottom-left*/
+	/*border-radius: 20px 50px;*/
+
+	border-radius: 50%;
+}
+
+li{
+	/*list-style-type: square;*/
+	/*list-style-type: circle;*/
+	/*list-style-type: none;*/
+
+	/*list-style: none;*/
+
+	/*list-style: decimal;*/
+	list-style: decimal-leading-zero;
+
+	border: 1px solid red;
+
+	/*list-style-position: inside;*/
+	list-style-position: outside;
+}
+
+/*element selector (tag)
+class selector (.)
+id selector (#)
+group selector (,)
+universal selector (*)*/

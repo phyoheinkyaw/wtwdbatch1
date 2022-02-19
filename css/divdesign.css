@@ -1,0 +1,89 @@
+.red{
+	width: 200px;
+	height: 100px;
+	/*background-color: purple;*/
+	/*background-color: #cef700;*/
+	background-color: rgb(66,52,127);
+	color: white;
+}
+
+.backimage{
+	width: 800px;
+	height: 400px;
+	background-image: url('../img/cover/bg1.jpg');
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: no-repeat;*/
+	background-position: center;
+
+
+	color: #fff;
+}
+
+.border{
+	width: 200px;
+	height: 200px;
+
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: red;*/
+
+	/*Short Hand*/
+		 /*s s c*/
+	border: 1px solid blue;
+
+}
+
+.background{
+	width: 400px;
+	height: 400px;
+	/*border: 1px solid red;*/
+	/*background: #ff156a;*/
+	/*background: url('../img/cover/bg1.jpg');*/
+	/*background-color: linear-gradient(red,blue);*/
+	/*background: linear-gradient(360deg,red,blue,green,black);*/
+	/*background-image: linear-gradient(360deg,red,blue,green,black);*/
+
+	background: linear-gradient(
+		360deg,
+		red,
+		blue,
+		green
+	);
+
+}
+
+.radial{
+	width: 300px;
+	height: 300px;
+	border: 1px solid blue;
+
+	/*background: radial-gradient(red,blue,green);*/
+	/*background-image: radial-gradient(red,green,blue);*/
+	/*background-color: radial-gradient(red,green,blue);*/
+
+	/*background: radial-gradient(
+		#290ddb,
+		#3adb0d,
+		#e3280b
+	);*/
+
+	background: radial-gradient(
+		rgba(17,25,127,1.00),
+		rgba(200,19,127,1.00),
+		rgba(223,208,50,1.00),
+		rgba(14,225,127,1.00)
+	);
+
+}
+
+.div6{
+	width: 500px;
+	height: 500px;
+	border: 1px solid red;
+
+	background: linear-gradient(
+		yellow 30%,
+		green 0% 70%,
+		red 10%
+	);
+}

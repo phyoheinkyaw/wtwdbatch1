@@ -1,0 +1,23 @@
+/*pseudo element (::)*/
+
+/*p::first-line{
+	color: blue;
+}*/
+
+/*p::first-letter{
+	color: red;
+	font-size: 40px;
+}*/
+
+/*p::before{
+	content: "ABC " ;
+}*/
+
+/*p::after{
+	content: " ABC";
+}*/
+
+.p1::selection{
+	background-color: orange;
+	color: #fff;
+}

@@ -1,0 +1,156 @@
+*{
+	cursor: pointer;
+}
+
+body{
+	background-image: url('../img/icon/instagram.png');
+	background-repeat: no-repeat;
+
+	/*background-position: center;*/
+	/*background-position: top;*/
+	/*background-position: bottom;*/
+
+	/*background-position: right;*/
+	/*background-position: left;*/
+
+	/*background-position: left top;*/
+	/*background-position: right top;*/
+
+	/*background-position: left bottom;*/
+	/*background-position: right bottom;*/
+
+	/*background-size: auto;*/
+	/*background-size: cover;*/
+	/*background-size: contain;*/
+
+	/*background-size: 200px;*/
+					/*width height*/
+	/*background-size: 200px 200px;*/
+
+	/*background-size: 50%;*/
+					/*width height*/
+	/*background-size: 20% 30%;*/
+
+	/*background-size: 100%;*/
+
+
+
+}
+
+
+.b1{
+	border-width: 1px;
+	border-style: solid;
+}
+
+.b2{
+	border-width: 1px;
+	border-style: dotted;
+}
+
+.b3{
+	border-width: 1px;
+	border-style: dashed;
+}
+
+.b4{
+	border-width: 1px;
+	border-style: double;
+}
+
+.b5{
+	border-width: 1px;
+	border-style: groove;
+	border-color: green;
+}
+
+.b6{
+	border-width: 1px;
+	border-style: ridge;
+	border-color: green;
+}
+
+.b7{
+	border-width: 1px;
+	border-style: inset;
+	border-color: green;
+}
+
+.b8{
+	border-width: 1px;
+	border-style: outset;
+	border-color: green;
+}
+
+.b9{
+	border-width: 1px;
+				/*top right bottom left*/
+	/*border-style: solid dotted dashed double;
+	border-color: red blue green yellow;*/
+
+				/*top&bottom left&right*/
+	/*border-style: solid dashed;
+	border-color: green red;*/
+
+	border-style: solid dotted dashed double;
+	border-color: red blue;
+}
+
+.bddesign{
+	width: 300px;
+	height: 300px;
+
+	text-align: center;
+
+	background-color: red;
+
+	border: 1px solid black;
+
+	/*Short Hand*/
+	/*border-radius: 50px;*/
+
+	/*border-top-left-radius: 50px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 30px;*/
+
+				/*top-left top-right bottom-right bottom-left*/
+	/*border-radius: 50px 20px 0 60px;*/
+
+				/*top-left&bottom-right top-right&bottom-left*/
+	/*border-radius: 50px 100px;*/
+
+	border-radius: 50%;
+}
+
+li{
+	/*list-style-type: circle;*/
+	/*list-style-type: square;*/
+	/*list-style-type: none;*/
+	/*list-style: none;*/
+
+	list-style-type: decimal;
+	/*list-style-type: decimal-leading-zero;*/
+
+	/*border: 1px solid red;*/
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: orange;
+
+	/*list-style-position: inside;*/
+	list-style-position: outside; /* default */
+
+	/*cursor: pointer;*/
+
+}
+
+
+input[type="text"]{
+	background-color: green;
+	color: #fff;
+
+	width: 200px;
+
+	border-radius: 30px;
+}

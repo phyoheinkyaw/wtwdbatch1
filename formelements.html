@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Elements</title>
+</head>
+<body>
+	<h1>Form Elements</h1><br/>
+	<fieldset>
+		<legend>This is example form</legend>
+	<form action="" method="" enctype="multipart/form-data">
+		<label for="firstname">First Name</label>
+		<input type="text" name="firstname" id="firstname" class="" minlength="2" maxlength="6" placeholder="Enter Your First Name" />
+
+		<br/>
+
+		<label for="lastname">Last Name</label>
+		<input type="text" name="lastname" id="lastname" class="" placeholder="Enter Your Last Name"  />
+
+		<br/>
+
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password" class="" placeholder="Enter Your Password"  />
+
+		<br/>
+
+		<label for="age">Age</label>
+		<input type="number" name="age" id="age" class="" placeholder="Enter Your Age" min="3" max="9" required />
+
+		<br/>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" class="" placeholder="Enter Your Email"  />
+
+		<br/>
+
+		<label>Gender</label>
+		<input type="radio" name="gender" id="genderm" class="" value="1"  /><label for="genderm">Male</label>
+
+		<input type="radio" name="gender" id="genderf" class="" value="2" /><label for="genderf">Female</label>
+
+		<input type="radio" name="gender" id="gendero" class="" value="0" /><label for="gendero">Other</label>
+
+		<br/>
+
+		<label>Salary Type</label>
+		<input type="radio" name="salary" id="cash" class="" value="0"  /><label for="cash">Cash</label>
+		<input type="radio" name="salary" id="mob" class="" value="1" /><label for="mob">Mobile Banking</label>
+
+		<br/>
+
+		<label>Color</label>
+		<input type="checkbox" name="color" id="blue" class="" value="1" /><label for="blue">Blue</label>
+		<input type="checkbox" name="color" id="red" class="" value="2" /><label for="red">Red</label>
+		<input type="checkbox" name="color" id="green" class="" value="3"  /><label for="green">Green</label>
+		<input type="checkbox" name="color" id="white" class="" value="4" /><label for="white">White</label>
+
+		<br/>
+
+		<label for="citizen">Citizen</label>
+		<select name="citizen" id="citizen" class="" >
+			<option selected disabled>Choose Your Country</option>
+			<option value="mm">Myanmar</option>
+			<option value="th">Thailand</option>
+			<option value="indo">Indonesia</option>
+			<option value="lao">Laos</option>
+			<option value="in">India</option>
+			<option value="vit">Vietnam</option>
+			<option value="jp">Japan</option>
+		</select>
+
+		<br/>
+
+		<label for="role">Role</label>
+		<select name="role" id="role" class="" multiple>
+			<option value="1">Manager</option>
+			<option value="2">HR</option>
+			<option value="3">Admin</option>
+			<option value="4">Programmer</option>
+			<option value="5">Editor</option>
+		</select>
+
+		<br/>
+
+		<label for="dob">Date Of Birth</label>
+		<input type="date" name="dob" id="dob" class="" />
+
+		<br/>
+
+		<label for="time">Time</label>
+		<input type="time" name="time" id="time" class="" />
+
+		<br/>
+
+		<label for="app">Appointment</label>
+		<input type="datetime-local" name="app" id="app" class="" />
+
+		<br/>
+
+		<label for="vol">Volume</label>
+		<input type="range" name="vol" id="vol" min="0" max="100" step="10" class="" value="0" />
+
+		<br/>
+
+		<label for="bio">Bio</label>
+		<textarea name="bio" id="bio" rows="5" class=""></textarea>
+
+		<br/>
+
+		<label for="file">File</label>
+		<input type="file" name="file" id="file" class="" multiple />
+
+		<br/>
+		<input type="hidden" name="" id="" />
+
+		<br/>
+
+		<input type="reset" name="reset" id="reset" class="" value="Cancel" />
+
+		<input type="submit" name="submit" id="submit" class="" value="Register" />
+
+		<button name="login" id="login" class="">Login</button>
+
+
+
+
+	</form>
+</fieldset>
+
+</body>
+</html>
+
+<!-- Stand Alone Attribute
+selected , disabled , checked , multiple , required
+-->

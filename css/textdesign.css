@@ -1,0 +1,25 @@
+.textalign{
+	/*text-align: right;*/
+	/*text-align: center;*/
+	/*text-align: left;*/
+	text-align: justify;
+}
+
+.textdecoration{
+	/*text-decoration: underline;*/
+	/*text-decoration: line-through;*/
+	/*text-decoration: overline;*/
+	text-decoration: none;
+}
+
+.textshadow{
+				/*hor ver blur color*/
+	text-shadow: 0 0 10px rgb(0, 17, 255);
+	color: white;
+}
+
+.textstyle{
+	/*letter-spacing: 2px;*/
+	line-height: 2;
+	/*line-height: 200%;*/
+}

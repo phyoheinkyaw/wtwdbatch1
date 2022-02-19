@@ -1,0 +1,35 @@
+/*Selectors*/
+/*Group Selector <symbol comma (,)>*/
+
+/*Single Selector*/
+/*Element Selector*/
+/*h1{
+	color: green;
+}
+
+h2,h3,h4{
+	color: red;
+}*/
+
+/*id Selector*/
+/*#sp1{
+	color: blue;
+}
+
+#sp2,#sp3{
+	color: orange;
+}*/
+
+/*Class selector*/
+/*.ph{
+	color: red;
+}
+
+.f30{
+	font-size: 30px;
+}
+*/
+
+h1, #sp1, .ph{
+	color: red;
+}

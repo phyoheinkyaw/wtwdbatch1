@@ -1,0 +1,37 @@
+.container .circle1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+	background: conic-gradient(red,green,yellow);
+}
+
+.container .circle2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+	background: conic-gradient(#15e6e6,#4215e6,#e615b5);
+}
+
+.container .circle3{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+	background: conic-gradient(
+		rgba(42,34,127,1.00),
+		rgba(207,21,127,1.00),
+		rgba(16,242,127,1.00));
+}
+
+.container .circle4{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+	background: conic-gradient(
+		red 30%,
+		yellow 0% 60%,
+		blue 0%);
+}

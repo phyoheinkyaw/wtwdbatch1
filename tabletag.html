@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Tag</title>
+</head>
+<body>
+
+	<table border="1" align="center" width="350px">
+		<thead bgcolor="red">
+		<tr>
+			<th>No</th>
+			<th>Item</th>
+			<th>Qty</th>
+			<th>Price</th>
+			<th>Total</th>
+			<th>Mark</th>
+		</tr>
+		</thead>
+
+		<tbody bgcolor="pink">
+		<tr>
+			<td>1</td>
+			<td>Coffee</td>
+			<td>3</td>
+			<td>1000</td>
+			<td>3000</td>
+			<td rowspan="3">PAID</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Toast</td>
+			<td>3</td>
+			<td>1000</td>
+			<td>3000</td>
+			<!-- <td>PAID</td> -->
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Sandwich</td>
+			<td>3</td>
+			<td>1000</td>
+			<td>3000</td>
+			<!-- <td rowspan="2">PAID</td> -->
+		</tr>
+		</tbody>
+
+		<tfoot bgcolor="violet" align="right">
+		<tr>
+			<td colspan="4" >Total</td>
+			<td colspan="2" align="center">9000</td>
+		</tr>
+		</tfoot>
+
+	</table>
+
+</body>
+</html>

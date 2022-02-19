@@ -1,0 +1,39 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');*/
+
+/*Local Font Integrate*/
+/*i.Local Machine*/
+/*ii.Project Folder*/
+
+
+/*Local Machine*/
+/*.fontstyle{
+	font-family: "Trebuchet MS";
+}*/
+
+
+
+/*Global Font Integrate*/
+/*.fontstyle{
+	If user don't have Stick font, following fonts are take place.
+	font-family: 'Stick', sans-serif, Arial, "Times New Roman";
+}*/
+
+/*.fontstyle{
+	font-family: 'Twinkle Star', cursive;
+}*/
+
+/*.fontstyle{
+	font-family: 'Stick', sans-serif;
+	font-family: 'Twinkle Star', cursive;
+}*/
+
+
+/*ii.Project Folder*/
+@font-face{
+	font-family: 'abc';
+	src: local('Stick-Regular'),url('../libs/fonts/stick/Stick-Regular.ttf') format('woff');
+}
+
+.p1{
+	font-family: 'abc';
+}
